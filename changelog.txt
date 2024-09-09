@@ -1,0 +1,34 @@
+Diamond DMS Changelog
+
+1.1.3
+ -Adds option to purged all trashed files at once.
+ -File expiry is now processed correctly; expired documents will be 
+      moved to trash on the day of expiry.
+ -Searching by date functions again.
+ -Web-based viewer can now show revisions older than current.
+ -Minor fixes.
+
+1.1.2
+ -Fixes bulkdownload breaking when 2 files have identical filenames.
+ -Added odometer config flag to dis/enable the odometer effect
+ -Adds dbcheck config flag. Will run a single database health
+      check on next run. This will clean old orphaned file entries
+      leftover from pre-1.1.1 databases.
+
+1.1.1
+ -Fixes document's data not being purged from database
+      after being deleted from the recycle bin.
+
+1.1
+ -Adds filename support.
+ -Adds config file for alternate http ports.
+ -Cosmetic fixes.
+
+1.0 - Initial Release
+ -File storage limit removed.
+ -Broken Bulk downloads feature fixed.
+ -Searching by date using "between" fixed.
+ -Removed same-author check for notes.
+ -Cosmetic changes.
+ -Default administrator account email changed.
+ -Pre-fork backdoor plugged.

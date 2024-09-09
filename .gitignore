@@ -1,0 +1,7 @@
+/*.zip
+*.log
+/.settings
+/log
+/data
+/bin
+/build
